@@ -34,15 +34,15 @@ var DEFAULT_LIMIT = 50;
 var TVRAGE_CACHE_MINS = 300; // 5Hours
 
 // System variables
-var baseUrl = "http://api.t411.ch";
-var baset411 = "https://www.t411.ch";
+var baseUrl = "http://api.t411.li";
+var baset411 = "https://www.t411.li";
 var userToken = ""; // Holds the user token for the T411 API
 
-var _T411_CatTVShow = {name:"SÃ©rie TV", idCat : 0};
+var _T411_CatTVShow = {name:"Série TV", idCat : 0};
 var _T411_CatFilms  = {name:"Film", 	idCat : 0};
 
-var _T411_TermsPrefixSeasons = 	{name :"SÃ©rieTV - Saison", 	idTerm : 0, values:[]};
-var _T411_TermsPrefixEpisodes = {name :"SÃ©rieTV - Episode", 	idTerm : 0, values:[]};
+var _T411_TermsPrefixSeasons = 	{name :"SérieTV - Saison", 	idTerm : 0, values:[]};
+var _T411_TermsPrefixEpisodes = {name :"SérieTV - Episode", 	idTerm : 0, values:[]};
 
 
 var app = express ();
